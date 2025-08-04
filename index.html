@@ -1,17 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Saksham Biosurgical Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
+    body { font-family: 'Poppins', sans-serif; background: #f2f6fa; color: #333; }
+
+    header {
+      background: linear-gradient(to right, #0052cc, #007bff);
+      color: white; text-align: center; padding: 3rem 1rem;
+    }
+
+    nav {
+      background: #003d99; text-align: center; padding: 1rem;
+    }
+
+    nav a {
+      color: white; text-decoration: none; margin: 0 15px; font-weight: 600;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: #e9f0ff;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: #222; color: white; text-align: center; padding: 1.5rem;
+    }
+
+    .whatsapp-button {
+      position: fixed; bottom: 80px; right: 20px; z-index: 1000;
+    }
+
+    .whatsapp-button img {
+      width: 50px; height: 50px; transition: transform 0.3s;
+    }
+
+    .whatsapp-button img:hover {
+      transform: scale(1.1);
+    }
+
+    #backToTop {
+      position: fixed; bottom: 20px; right: 20px; background: #007bff; color: white;
+      border: none; padding: 10px 15px; border-radius: 50%;
+      font-size: 20px; cursor: pointer; display: none;
+    }
+
+    #backToTop:hover { background: #0056b3; }
+
+    @media (max-width: 600px) {
+      .services { flex-direction: column; align-items: center; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Saksham Biosurgical Services</h1>
+
+  <header>
+    <h1>Saksham Biosurgical Services</h1>
+    <p>Empowering Hospitals with Critical Care Excellence</p>
+  </header>
+
   <nav>
-    <a href="about.html">About</a> |
-    <a href="products.html">Products</a> |
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
     <a href="contact.html">Contact</a>
   </nav>
-  <p>This is the homepage. Navigate using the menu above.</p>
+
+  <section class="hero">
+    <h2>Your Partner in Hospital Equipment</h2>
+    <p>Delivering ICU, OT, and medical gas plant solutions tailored for hospitals and healthcare centers.</p>
+  </section>
+
+  <section class="services">
+    <div class="card">
+      <h3>ICU Setup</h3>
+      <p>Complete critical care solutions including beds, monitors, and ventilators.</p>
+    </div>
+    <div class="card">
+      <h3>Medical Gas Pipeline</h3>
+      <p>Design, install, and maintain gas pipeline systems for hospitals.</p>
+    </div>
+    <div class="card">
+      <h3>Operation Theatre</h3>
+      <p>Advanced OT equipment with complete installation and support.</p>
+    </div>
+  </section>
+
+  <button id="backToTop" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">↑</button>
+
+  <div class="whatsapp-button">
+    <a href="https://wa.me/917532040386" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+  </div>
+
+  <footer>
+    &copy; 2025 Saksham Biosurgical Services. All rights reserved.
+  </footer>
+
+  <script>
+    const topButton = document.getElementById('backToTop');
+    window.onscroll = function () {
+      topButton.style.display =
+        document.body.scrollTop > 300 || document.documentElement.scrollTop > 300 ? 'block' : 'none';
+    };
+  </script>
+
 </body>
 </html>
