@@ -171,15 +171,6 @@ footer {
   transition: transform 0.3s ease;
 }
 
-.gallery img:hover {
-  transform: scale(1.05);
-}
-.resized-img {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-}
-
 
 
 
