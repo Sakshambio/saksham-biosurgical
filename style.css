@@ -146,6 +146,35 @@ footer {
   88%  { transform: translateX(-200%); }
   100% { transform: translateX(-200%); }
 }
+.image-gallery {
+  text-align: center;
+  padding: 2rem;
+}
+
+.image-gallery h2 {
+  margin-bottom: 1.5rem;
+  color: #0e3959;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
 
 
 
