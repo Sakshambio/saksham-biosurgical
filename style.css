@@ -121,14 +121,21 @@ footer {
 .slider {
   position: relative;
   width: 100%;
+  overflow: hidden;
+  margin: 20px auto;
 }
 
 .slide-track {
   display: flex;
   width: 300%;
-  animation: slide 30s infinite linear;
+  animation: slide 30s infinite ease-in-out ;
 }
-
+.slider-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 .slide {
   width: 100%;
   height: auto;
@@ -168,8 +175,9 @@ footer {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
+  transition: transform 0.10s ease;
 }
+
 
 
 
