@@ -126,7 +126,7 @@ footer {
 .slide-track {
   display: flex;
   width: 300%;
-  animation: slide 25s infinite linear;
+  animation: slide 30s infinite linear;
 }
 
 .slide {
@@ -170,6 +170,7 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
+
 
 
 
