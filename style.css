@@ -152,7 +152,7 @@ footer {
 }
 
 .image-gallery h2 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0 auto;
   color: #0e3959;
 }
 
@@ -170,6 +170,7 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
+
 
 
 
