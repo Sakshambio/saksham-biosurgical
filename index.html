@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
+
   
 
   <meta charset="UTF-8">
@@ -166,6 +168,29 @@
     <a href="products.html">Products</a>
     <a href="contact.html">Contact</a>
   </nav>
+      <div class="slider">
+  <img class="slide active" src="01.png" alt="Image 1">
+  <img class="slide" src="02.png" alt="Image 2">
+  <img class="slide" src="03.png" alt="Image 3">
+  <img class="slide" src="04.png" alt="Image 4">
+</div>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+
+  function showSlides() {
+    slides.forEach((slide, idx) => {
+      slide.classList.remove('active');
+    });
+    slideIndex++;
+    if (slideIndex > slides.length) slideIndex = 1;
+    slides[slideIndex - 1].classList.add('active');
+    setTimeout(showSlides, 3000); // change time here
+  }
+
+  showSlides();
+</script>
 
  
     <section class="carousel-wrapper">
