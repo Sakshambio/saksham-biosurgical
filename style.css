@@ -178,6 +178,31 @@ footer {
   transition: transform 0.10s ease;
 }
 
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: contain;
+  background: #fff;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
 
 
 
