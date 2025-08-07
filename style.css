@@ -111,7 +111,7 @@ footer {
 }
 .carousel-wrapper {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 30px auto;
   overflow: hidden;
   border-radius: 4px;
@@ -171,12 +171,13 @@ footer {
 }
 
 .gallery img {
-  width: 300px;
+  width: 1000px;
   height: 200px;
   border-radius: 4px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.10s ease;
 }
+
 
 
 
