@@ -7,46 +7,7 @@
 
   <meta charset="UTF-8">
   <title>Horizontal Image Gallery</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
-    }
-
-    .image-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-      padding: 30px;
-      overflow-x: auto;
-    }
-
-    .image-row img {
-      height: 250px;
-      width: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .image-row img:hover {
-      transform: scale(1.05);
-    }
-
-    /* For smaller screens */
-    @media (max-width: 768px) {
-      .image-row {
-        flex-direction: column;
-        gap: 10px;
-      }
-      .image-row img {
-        height: 200px;
-      }
-    }
-  </style>
+ 
 <body>
 
   <div class="image-row">
