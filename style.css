@@ -202,6 +202,10 @@ footer {
 .slide.active {
   opacity: 1;
 }
+.header-left .logo {
+  width: 70px;
+  height: auto;
+}
 
 
 
