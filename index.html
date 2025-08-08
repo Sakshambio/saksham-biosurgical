@@ -2,30 +2,20 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
-
-  
-
   <meta charset="UTF-8">
-  <title>Horizontal Image Gallery</title>
- 
 <body>
-
   <div class="image-row">
-    <img src="01.png" alt="Image 1">
-    <img src="02.png" alt="Image 2">
-    <img src="03.png" alt="Image 3">
-    <img src="04.png" alt="Image 4">
+    <img src="image/01.png" alt="Image 1">
+    <img src="image/02.png" alt="Image 2">
+    <img src="image/03.png" alt="Image 3">
+    <img src="image/04.png" alt="Image 4">
   </div>
-
 </body>
 </html>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Saksham Biosurgical Services</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <!-- ✅ Link to your CSS file -->
-  <link rel="stylesheet" href="style.css">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth; }
     body { font-family: 'Poppins', sans-serif; background: #f2f6fa; color: #333; }
@@ -122,20 +112,21 @@
     <h1>Saksham Biosurgical Services</h1>
     <p>Empowering Hospitals with Critical Care Excellence</p>
   </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="products.html">Products</a>
-    <a href="contact.html">Contact</a>
+  <nav class="main-nav">
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="networks.html">Networks</a>
+      <a href="register.html">Register</a>
+      <a href="careers.html">Careers</a>
+      <a href="enquiry.html">Enquiry</a>
+      <a href="contact.html">Contact</a>
   </nav>
-      <div class="slider">
-  <img class="slide active" src="01.png" alt="Image 1">
-  <img class="slide" src="02.png" alt="Image 2">
-  <img class="slide" src="03.png" alt="Image 3">
-  <img class="slide" src="04.png" alt="Image 4">
-</div>
-
+  <div class="slider">
+    <img class="slide active" src="image/01.png" alt="Image 1">
+    <img class="slide" src="image/02.png" alt="Image 2">
+    <img class="slide" src="image/03.png" alt="Image 3">
+    <img class="slide" src="image/04.png" alt="Image 4">
+  </div>
 <script>
   let slideIndex = 0;
   const slides = document.querySelectorAll('.slide');
