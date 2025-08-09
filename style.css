@@ -14,13 +14,13 @@ header {
   background-color: #0066cc;
   color: white;
   padding: 2rem;
-  text-align: center;
+  text-align: right;
 }
 
 /* Navigation */
 nav {
   background: #0066cc;
-  text-align: center;
+  text-align: left;
   padding: 1rem;
 }
 
@@ -228,6 +228,7 @@ footer {
 .header-right a:hover {
   color: #004999;
 }
+
 
 
 
