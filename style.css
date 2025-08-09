@@ -15,7 +15,7 @@ header {
   background-color: #333;
   color: white;
   padding: 2rem;
-  text-align: right;
+  text-align: left;
 }
 
 /* Navigation */
@@ -230,6 +230,7 @@ footer {
 .header-right a:hover {
   color: #004999;
 }
+
 
 
 
