@@ -36,7 +36,6 @@ nav a:hover {
   color: #ffcc00;
   transform: scale(1.1);
 }
-
 /* Section Titles */
 h2, h3 {
   text-align: center;
@@ -49,19 +48,16 @@ h2, h3 {
   margin: 2rem auto 1rem auto;
   transition: 0.3s;
 }
-
 h2:hover, h3:hover {
   transform: scale(1.05);
   background-color: #d1eaff;
 }
-
 /* Section */
 section {
   padding: 2rem;
   max-width: 1000px;
   margin: auto;
 }
-
 /* WhatsApp Button */
 .whatsapp-button {
   position: fixed;
@@ -69,17 +65,14 @@ section {
   right: 20px;
   z-index: 1000;
 }
-
 .whatsapp-button img {
   width: 50px;
   height: 50px;
   transition: transform 0.3s ease-in-out;
 }
-
 .whatsapp-button img:hover {
   transform: scale(1.1);
 }
-
 /* Back to Top */
 #backToTop {
   position: fixed;
@@ -96,11 +89,9 @@ section {
   box-shadow: 0 4px 6px rgba(0,0,0,0.3);
   transition: background 0.3s;
 }
-
 #backToTop:hover {
   background: #004999;
 }
-
 /* Footer */
 footer {
   background: #222;
@@ -117,14 +108,12 @@ footer {
   border-radius: 4px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 .slider {
   position: relative;
   width: 100%;
   overflow: hidden;
   margin: 20px auto;
 }
-
 .slide-track {
   display: flex;
   width: 300%;
@@ -143,7 +132,6 @@ footer {
   object-fit: cover;
   border-radius: 4px;
 }
-
 /* Animation */
 @keyframes slide {
   0%   { transform: translateX(0%); }
@@ -157,19 +145,16 @@ footer {
   text-align: center;
   padding: 2rem;
 }
-
 .image-gallery h2 {
   margin-bottom: 0 auto;
   color: #0e3959;
 }
-
 .gallery {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .gallery img {
   width: 1000px;
   height: 200px;
@@ -177,7 +162,6 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.10s ease;
 }
-
 .slider {
   position: relative;
   width: 100%;
@@ -188,7 +172,6 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
-
 .slide {
   position: absolute;
   width: 100%;
@@ -198,10 +181,54 @@ footer {
   object-fit: contain;
   background: #fff;
 }
-
 .slide.active {
   opacity: 1;
 }
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #f0f8ff;
+  border-bottom: 2px solid #ccc;
+}
+.header-left {
+  flex: 0 0 auto;
+}
+.logo {
+  width: 60px;
+  height: auto;
+}
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+.header-center h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #003366;
+}
+.header-center p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+.header-right {
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.header-right a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+  padding: 6px 10px;
+}
+.header-right a:hover {
+  color: #004999;
+}
+
 
 
 
