@@ -3,7 +3,7 @@
 /* General Styles */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f7fa;
+  background-color: #f0f8ff;
    color: white;
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
 
 /* Header */
 header {
-  background-color: #0066cc;
+  background-color: #f0f8ff;
   color: white;
   padding: 2rem;
   text-align: right;
@@ -230,6 +230,7 @@ footer {
 .header-right a:hover {
   color: #004999;
 }
+
 
 
 
