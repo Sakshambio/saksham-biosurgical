@@ -4,6 +4,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f7fa;
+   color: white;
   margin: 0;
   padding: 0;
   color: #333;
@@ -20,6 +21,7 @@ header {
 /* Navigation */
 nav {
   background: #0066cc;
+   color: white;
   text-align: left;
   padding: 1rem;
 }
@@ -228,6 +230,7 @@ footer {
 .header-right a:hover {
   color: #004999;
 }
+
 
 
 
